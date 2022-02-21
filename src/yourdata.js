@@ -42,10 +42,10 @@ export default {
       para:
         "Have you seen this guy", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: url+"Gunned%20Down%20Blur%20Big%20Text%20Warp.jpeg",     //Project URL - Add Your Project Url Here
-      url: url
+      imageSrc: url + "Gunned%20Down%20Blur%20Big%20Text%20Warp.jpeg",     //Project URL - Add Your Project Url Here
+      url: url,
     },
-   /* {
+   {
       title: "Project Two", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
@@ -173,18 +173,18 @@ export default {
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/silversoftwerks" },
-//     {
-//       img: codepenIcon,
-//       url: "https://www.codepen.com/",
-//     },
-//     {
-//       img: dribbbleIcon,
-//       url: "https://dribbble.com/chetanverma",
-//     },
-//     {
-//       img: instagramIcon,
-//       url: "https://www.instagram.com/",
-//     },
+    {
+      img: codepenIcon,
+      url: "https://www.codepen.com/",
+    },
+    {
+      img: dribbbleIcon,
+      url: "https://dribbble.com/chetanverma",
+    },
+    {
+      img: instagramIcon,
+      url: "https://www.instagram.com/",
+    },
   ],
 
   // End Contact Section ---------------
