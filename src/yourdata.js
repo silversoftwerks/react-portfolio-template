@@ -8,6 +8,7 @@ import codeIcon from "./images/code.svg"
 import pollIcon from "./images/bar_chart_black_48dp.svg"
 import geoIcon from "./images/travel_explore_black_24dp.svg"
 import chartIcon from "./images/insights_black_48dp.svg"
+import spreadsheetIcon from "./images/spreadsheetIcon.png"
 // Social Icon
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
@@ -144,9 +145,9 @@ export default {
         "Geographic Analytics",
     },
     {
-      img: htmlIcon,
+      img: spreadsheetIcon,
       para:
-        "Web Site Development",
+        "Spreasheet Reports",
     },  
     {
       img: jsIcon,
