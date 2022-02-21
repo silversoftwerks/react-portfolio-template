@@ -127,7 +127,7 @@ export default {
   // Skills Section ---------------
 
   //   Import Icons from the top and link it here
-
+// ADditional Services, Scan to Buy (tickets, orders, etc)
   skills: [
     {
       img: pollIcon,
