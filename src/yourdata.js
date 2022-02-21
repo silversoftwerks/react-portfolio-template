@@ -24,7 +24,7 @@ export default {
     //Line 2 For Header
     "Real world analytics",
     //Line 3 For Header
-    "Be a part of Denver's flourishing revival",
+    "Good Vibes",
   ],
   //   Header Paragraph
   headerParagraph:
