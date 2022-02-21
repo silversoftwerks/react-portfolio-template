@@ -22,7 +22,7 @@
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.1",
     "sass": "^1.49.8",
-    "sass-loader": "^12.6.0'
+    "sass-loader": "^12.6.0"
   },
   "devDependencies": {
     "prettier": "2.1.2"
