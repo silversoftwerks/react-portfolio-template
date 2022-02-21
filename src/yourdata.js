@@ -5,7 +5,9 @@ import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
-
+import pollIcon from "./bar_chart_black_48dp.svg"
+import geoIcon from "./travel_explore_black_24dp.svg"
+import chartIcon from "./insights_black_48dp.svg"
 // Social Icon
 import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
@@ -127,6 +129,21 @@ export default {
 
   skills: [
     {
+      img: pollIcon,
+      para:
+        "Consumer Polling",
+    },
+    {
+      img: chartIcon,
+      para:
+        "Scan Analytics",
+    },
+    {
+      img: geoIcon,
+      para:
+        "Geographic Analytics",
+    },
+    {
       img: htmlIcon,
       para:
         "Web Site Development",
@@ -140,21 +157,6 @@ export default {
       img: designIcon,
       para:
         "Media Design",
-    },
-    {
-      img: codeIcon,
-      para:
-        "",
-    },
-    {
-      img: codeIcon,
-      para:
-        "Scan Analytics",
-    },
-    {
-      img: codeIcon,
-      para:
-        "Geographic Analytics",
     },
   ],
 
