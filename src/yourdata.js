@@ -17,18 +17,18 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "chetan",
+  name: "Silverload Media",
   headerTagline: [
     //Line 1 For Header
     "Modern marketing",
     //Line 2 For Header
-    "real world analytics",
+    "Real world analytics",
     //Line 3 For Header
-    "targeting Denver's hippest neighborhoods",
+    "Be a part of Denver's flourishing revival",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Be a part of Denver's flourishing revival. We want to help you enrich our city.",
 
   //Contact Email
   contactEmail: "silversoftwerks@gmail.com",
@@ -40,12 +40,12 @@ export default {
     {
       title: "This Guy Campaign", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Have you seen this guy", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: url+"Gunned%20Down%20Blur%20Big%20Text%20Warp.jpeg",     //Project URL - Add Your Project Url Here
       url: url
     },
-    {
+   /* {
       title: "Project Two", //Project Title - Add Your Project Title Here
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
@@ -111,13 +111,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "Started by 2 brothers, Silverlode media represtents a new form of grass roots marketing. Leveraging technology, creativity, and most importantly, fun, we aim to elevate artists, empower businesses, and enable patrons to connect.",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "QR code technology",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "Multimedia capabilities including web, print, audio, graphic arts, photography, videography, audio/signal visualizers, VR, AR, and XR. With over 15 years of experience, our artists and software engineers help you develop campaigns that apeal to the next generation of consumers",
   aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+    "",
 
   //   End About Section ---------------------
 
@@ -164,30 +164,29 @@ export default {
 
   promotionHeading: "Heading",
   promotionPara:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I saw that guy",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Let's enrich our town",
   social: [
     // Add Or Remove The Link Accordingly
-    { img: githubIcon, url: "https://github.com/chetanverma16" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
-    },
+    { img: githubIcon, url: "https://github.com/silversoftwerks" },
+//     {
+//       img: codepenIcon,
+//       url: "https://www.codepen.com/",
+//     },
+//     {
+//       img: dribbbleIcon,
+//       url: "https://dribbble.com/chetanverma",
+//     },
+//     {
+//       img: instagramIcon,
+//       url: "https://www.instagram.com/",
+//     },
   ],
 
   // End Contact Section ---------------
 }
 
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
