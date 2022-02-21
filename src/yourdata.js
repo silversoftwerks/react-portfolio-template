@@ -137,7 +137,7 @@ export default {
     {
       img: chartIcon,
       para:
-        "Scan Analytics",
+        "QR Code Scan Analytics",
     },
     {
       img: geoIcon,
