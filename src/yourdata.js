@@ -49,12 +49,12 @@ export default {
       url: url,
     },
    {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "The Spot", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "The Spot film", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        url+ "/images/IMG_1114.heic",
+       "https://lh3.googleusercontent.com/pw/AM-JKLXEKWx7VmDIQMuU_crZVZgNCNo0pWmaKc0Mr6Pceu-VG9sPuzIwt4TfceXoAvoPTTCFotdeFd7G6jwUH8ydspmukXuOt7jCjNGXbL9ETOnjA_rx3GYx6WElQekaw6l2jkzchgdphfbSRLYh86bmoqzsnQ=w918-h1222-no?authuser=0",
       //Project URL - Add Your Project Url Here
       url: "",
     },
