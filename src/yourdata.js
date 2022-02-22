@@ -20,7 +20,7 @@ export default {
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "Silverload Media",
+  name: "Silverlode Media",
   headerTagline: [
     //Line 1 For Header
     "Modern marketing",
