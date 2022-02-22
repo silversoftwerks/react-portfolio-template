@@ -114,13 +114,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Started by 2 brothers, Silverlode media represtents a new form of grass roots marketing. Leveraging technology, creativity, and most importantly, fun, we aim to elevate artists, empower businesses, and enable patrons to connect.",
+    "Founded by 2 brothers, Silverlode Media represtents a new form of grass roots marketing. Leveraging technology, creativity, and most importantly, fun, we aim to elevate artists, empower businesses, and enable patrons to easily connect.",
   aboutParaTwo:
-    "QR code technology",
+    "QR code and hardlinking technology",
   aboutParaThree:
     "Multimedia capabilities including web, print, audio, graphic arts, photography, videography, audio/signal visualizers, VR, AR, and XR. With over 15 years of experience, our artists and software engineers help you develop campaigns that apeal to the next generation of consumers",
   aboutImage:
-    url + "/images/IMG_2428.JPG",
+    "https://lh3.googleusercontent.com/_PLaE-l8c14nkdjHPh-D5kDyZKa3MRldKdtDxZGz38_OYwrpygIFFKYrjwXJaTuhFHNaKchBHOkrPVrZCUbGhKSWEWbREI5xf2qcbu7VKyvm7Aza8hPree9s3YzJwdpyOoL0WiVafsH4gWUEOLttsL8UadW6POXijeCe0UPNOXOvzd8gDx_PG0bcYnMN0ekTmqglSEILD84-CpvAtHyNOHkiAL3fEyo9xQMgKEdZaJX8HrmrcGsDyGzD9zzMqhB-Qd_D3JzK1QnVC3rhbZnmZmdxz1a81Tqr9y1iRmADtHzziiWtFt7xEwqkehW9te9P01QjyqSlJK3ILXx-IXYsKxlgf_VMfLhgfq8iVvaigvsYRHDzqcvpIThOT_Fq1uyN1UNZv5uoBiHF-UPX6n62-txAbGEiGK74Dmy6sZ4Ie4VcNvzN3pF2GkS7gcjZJi-__ovVt7CK__XBctkcHBfW3f80c4US2TDKSVkmmQBIMXLfKkBTnSU4tEOwQ1wkcueNBuHCmYj4DTDkwq88oQOMigl3g4iEa2sGVUONrn2VCc-VxMo6c0XUSSXsdCmaYW6xPOLEpBDILTqdwkF3M5h5jaUL7sV_RMezirDx9TZgoPpPsPGcLKxyaHnLPNGuxJzrrVwlOGs9r6ZwS2PvhiYh3t57GDwE-SuWI6QBOagckaVoi12hJj0fG64OI2qHs5hOs4vYrk4WBO2iUjHpQevv0Qtrpg=s0",
 
   //   End About Section ---------------------
 
