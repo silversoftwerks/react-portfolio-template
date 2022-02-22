@@ -54,7 +54,7 @@ export default {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        url+ "IMG_1114.heic",
+        url+ "/images/IMG_1114.heic",
       //Project URL - Add Your Project Url Here
       url: "",
     },
@@ -120,7 +120,7 @@ export default {
   aboutParaThree:
     "Multimedia capabilities including web, print, audio, graphic arts, photography, videography, audio/signal visualizers, VR, AR, and XR. With over 15 years of experience, our artists and software engineers help you develop campaigns that apeal to the next generation of consumers",
   aboutImage:
-    url + "IMG_2428.JPG",
+    url + "/images/IMG_2428.JPG",
 
   //   End About Section ---------------------
 
