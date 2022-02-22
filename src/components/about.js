@@ -22,7 +22,7 @@ const About = () => {
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={data.aboutImage} alt="about"></img>
+            <img src={data.aboutImage} style={{ width: "inherit" }} alt="about"></img>
           </div>
         </div>
       </div>
