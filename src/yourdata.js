@@ -27,7 +27,7 @@ export default {
     //Line 2 For Header
     "Real world analytics",
     //Line 3 For Header
-    "Good Vibes",
+    "Good vibes",
   ],
   //   Header Paragraph
   headerParagraph:
@@ -54,9 +54,9 @@ export default {
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        url+ "IMG_1114.heic",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "",
     },
     {
       title: "Project Three", //Project Title - Add Your Project Title Here
@@ -120,7 +120,7 @@ export default {
   aboutParaThree:
     "Multimedia capabilities including web, print, audio, graphic arts, photography, videography, audio/signal visualizers, VR, AR, and XR. With over 15 years of experience, our artists and software engineers help you develop campaigns that apeal to the next generation of consumers",
   aboutImage:
-    "",
+    url + "IMG_2428.JPG",
 
   //   End About Section ---------------------
 
@@ -165,7 +165,7 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
+  promotionHeading: "Reviews",
   promotionPara:
     "I saw that guy",
   // End Promotion Section -----------------
@@ -176,17 +176,17 @@ export default {
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/silversoftwerks" },
-    {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
+//     {
+//       img: codepenIcon,
+//       url: "https://www.codepen.com/",
+//     },
     {
       img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
+      url: "https://dribbble.com/silversoftwerks",
     },
     {
       img: instagramIcon,
-      url: "https://www.instagram.com/",
+      url: "https://www.instagram.com/silversoftwerks",
     },
   ],
 
