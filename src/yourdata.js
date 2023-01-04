@@ -14,6 +14,7 @@ import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import llama from "./images/1706367517_llama_in_style_of_Alfonso_Mucha_.png"
 const url = "https://inspiring-bhabha-0e80f6.netlify.app/"
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -42,31 +43,26 @@ export default {
   projects: [
     {
       title: "This Guy Campaign", //Project Title - Add Your Project Title Here
-      para:
-        "Have you seen this guy", // Add Your Service Type Here
+      para: "Have you seen this guy", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: url + "Gunned%20Down%20Blur%20Big%20Text%20Warp.jpeg",     //Project URL - Add Your Project Url Here
+      imageSrc: url + "Gunned%20Down%20Blur%20Big%20Text%20Warp.jpeg", //Project URL - Add Your Project Url Here
       url: url,
     },
-   {
+    {
       title: "The Spot", //Project Title - Add Your Project Title Here
-      para:
-        "The Spot film", // Add Your Service Type Here
+      para: "The Spot film", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-       "https://lh3.googleusercontent.com/pw/AM-JKLXEKWx7VmDIQMuU_crZVZgNCNo0pWmaKc0Mr6Pceu-VG9sPuzIwt4TfceXoAvoPTTCFotdeFd7G6jwUH8ydspmukXuOt7jCjNGXbL9ETOnjA_rx3GYx6WElQekaw6l2jkzchgdphfbSRLYh86bmoqzsnQ=w918-h1222-no?authuser=0",
+        "https://lh3.googleusercontent.com/pw/AM-JKLXEKWx7VmDIQMuU_crZVZgNCNo0pWmaKc0Mr6Pceu-VG9sPuzIwt4TfceXoAvoPTTCFotdeFd7G6jwUH8ydspmukXuOt7jCjNGXbL9ETOnjA_rx3GYx6WElQekaw6l2jkzchgdphfbSRLYh86bmoqzsnQ=w918-h1222-no?authuser=0",
       //Project URL - Add Your Project Url Here
       url: "",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+      title: "Mucha Llama", //Project Title - Add Your Project Title Here
+      para: "AI Imagery", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      imageSrc: llama, //Project URL - Add Your Project Url Here
+      url: llama,
     },
     {
       title: "Project Four", //Project Title - Add Your Project Title Here
@@ -115,8 +111,7 @@ export default {
   // About Secton --------------
   aboutParaOne:
     "Founded by 2 brothers, Silverlode Media represtents a new form of grass roots marketing. Leveraging technology, creativity, and most importantly, fun, we aim to elevate artists, empower businesses, and enable patrons to easily connect.",
-  aboutParaTwo:
-    "QR code and hardlinking technology",
+  aboutParaTwo: "QR code and hardlinking technology",
   aboutParaThree:
     "Multimedia capabilities including web, print, audio, graphic arts, photography, videography, audio/signal visualizers, VR, AR, and XR. With over 15 years of experience, our artists and software engineers help you develop campaigns that apeal to the next generation of consumers",
   aboutImage:
@@ -127,37 +122,31 @@ export default {
   // Skills Section ---------------
 
   //   Import Icons from the top and link it here
-// ADditional Services, Scan to Buy (tickets, orders, etc)
+  // ADditional Services, Scan to Buy (tickets, orders, etc)
   skills: [
     {
       img: pollIcon,
-      para:
-        "Consumer Polling",
+      para: "Consumer Polling",
     },
     {
       img: chartIcon,
-      para:
-        "QR Code Scan Analytics",
+      para: "QR Code Scan Analytics",
     },
     {
       img: geoIcon,
-      para:
-        "Geographic Analytics",
+      para: "Geographic Analytics",
     },
     {
       img: spreadsheetIcon,
-      para:
-        "Spreasheet Reports",
-    },  
+      para: "Spreasheet Reports",
+    },
     {
       img: jsIcon,
-      para:
-        "Web App Development",
+      para: "Web App Development",
     },
     {
       img: designIcon,
-      para:
-        "Media Design",
+      para: "Media Design",
     },
   ],
 
@@ -166,8 +155,7 @@ export default {
   //   Promotion Section --------------------------
 
   promotionHeading: "Reviews",
-  promotionPara:
-    "I saw that guy",
+  promotionPara: "I saw that guy",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
@@ -176,10 +164,10 @@ export default {
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/silversoftwerks" },
-//     {
-//       img: codepenIcon,
-//       url: "https://www.codepen.com/",
-//     },
+    //     {
+    //       img: codepenIcon,
+    //       url: "https://www.codepen.com/",
+    //     },
     {
       img: dribbbleIcon,
       url: "https://dribbble.com/silversoftwerks",
@@ -192,4 +180,3 @@ export default {
 
   // End Contact Section ---------------
 }
-
