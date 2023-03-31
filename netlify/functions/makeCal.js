@@ -6,6 +6,7 @@ import moment from "moment";
 // Here we use debug level of logging to improve the debugging experience.
 // This functionality is optional!
 log.setLevel(LogLevel.DEBUG);
+exports.handler = async function (event, context) {
 
 // Create an instance of the CheerioCrawler class - a crawler
 // that automatically loads the URLs and parses their HTML using the cheerio library.
@@ -205,4 +206,5 @@ function convertJsonToKml(data) {
       </Document>
     </kml>`;
   return kml;
+}
 }
