@@ -23,6 +23,10 @@
     "react-scroll": "^1.8.1",
     "sass": "^1.49.8",
     "sass-loader": "^12.6.0"
+    "crawlee": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "ical-generator": "^3.6.1",
+    "moment": "^2.29.4"
   },
   "devDependencies": {
     "prettier": "2.1.2"
