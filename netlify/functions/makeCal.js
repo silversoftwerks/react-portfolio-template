@@ -7,7 +7,7 @@ import moment from "moment";
 // This functionality is optional!
 log.setLevel(LogLevel.DEBUG);
 exports.handler = async function (event, context) {
-
+    const icalData = ical();
 // Create an instance of the CheerioCrawler class - a crawler
 // that automatically loads the URLs and parses their HTML using the cheerio library.
 const crawler = new CheerioCrawler({
@@ -67,7 +67,7 @@ const crawler = new CheerioCrawler({
       })
       .get();
 
-    const icalData = ical();
+
 
     // for (let event of events) {
     //   const start = moment(event.start);
@@ -115,13 +115,7 @@ const crawler = new CheerioCrawler({
       });
     }
     fs.writeFileSync(`/tmp/${moment().format()}.ics`, icalData.toString());
-    return { 
-      statusCode: 200,
-      headers: {
-        "Content-Disposition": `attachment; filename="do303${moment().format()}.ics"`,
-      },
-      body: icalData.toString()
-    }
+    
   },
 
   // Loop through JSON data and add events to the calendar
@@ -205,4 +199,12 @@ function convertJsonToKml(data) {
     </kml>`;
   return kml;
 }
+  
+  return { 
+      statusCode: 200,
+      headers: {
+        "Content-Disposition": `attachment; filename="do303${moment().format()}.ics"`,
+      },
+      body: icalData.toString()
+    }
 }
