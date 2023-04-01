@@ -205,7 +205,8 @@ function convertJsonToKml(data) {
   return { 
       statusCode: 200,
       headers: {
-        "Content-Disposition": `attachment; filename="do303${moment().format()}.ics"`,
+        "Content-Disposition": `inline; filename="do303${moment().format()}.ics"`,
+        "Content-type": 'text/calendar; charset=utf-8',
       },
       body: icalData.toString()
     } 
