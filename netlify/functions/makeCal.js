@@ -114,7 +114,7 @@ const crawler = new CheerioCrawler({
         location: event.address || event.venue,
       });
     }
-    fs.writeFileSync(`${moment().format()}.ics`, icalData.toString());
+    fs.writeFileSync(`/tmp/${moment().format()}.ics`, icalData.toString());
   },
 
   // Loop through JSON data and add events to the calendar
