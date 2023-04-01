@@ -87,8 +87,19 @@ const crawler = new CheerioCrawler({
     
     // Store the results to the dataset. In local configuration,
     // the data will be stored as JSON files in ./storage/datasets/default
-    await Dataset.pushData(
-      events
+//     await Dataset.pushData(
+//       events
+//         .filter(({ address }) => address?.includes(" "))
+//         .map(({ title, venue, start, ...rest }) => ({
+//           title: `${title} @ ${venue}`,
+//           venue,
+//           start: moment(start),
+//           ...rest,
+//         }))
+//     );
+    //await Dataset.exportToCSV("MY-DATA");
+    //await Dataset.exportToJSON("data");
+    const items = events
         .filter(({ address }) => address?.includes(" "))
         .map(({ title, venue, start, ...rest }) => ({
           title: `${title} @ ${venue}`,
@@ -96,10 +107,6 @@ const crawler = new CheerioCrawler({
           start: moment(start),
           ...rest,
         }))
-    );
-    //await Dataset.exportToCSV("MY-DATA");
-    //await Dataset.exportToJSON("data");
-    const { items } = await Dataset.getData();
     for await (let event of items) {
       console.log(event);
       const start = moment(event.start);
