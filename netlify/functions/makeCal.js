@@ -84,16 +84,7 @@ const crawler = new CheerioCrawler({
     // }
 
     // Save iCalendar file
-    fs.writeFileSync(
-      `${request.url.slice(-6)}.kml`,
-      convertJsonToKml(
-        events.map(({ title, venue, ...rest }) => ({
-          name: title,
-          description: title + "@" + venue,
-          // ...rest,
-        }))
-      )
-    );
+    
     // Store the results to the dataset. In local configuration,
     // the data will be stored as JSON files in ./storage/datasets/default
     await Dataset.pushData(
@@ -106,8 +97,8 @@ const crawler = new CheerioCrawler({
           ...rest,
         }))
     );
-    await Dataset.exportToCSV("MY-DATA");
-    await Dataset.exportToJSON("data");
+    //await Dataset.exportToCSV("MY-DATA");
+    //await Dataset.exportToJSON("data");
     const { items } = await Dataset.getData();
     for (let event of items) {
       console.log(event);
@@ -137,8 +128,8 @@ const crawler = new CheerioCrawler({
 // Run the crawler and wait for it to finish.
 await crawler.run([
   "https://do303.com/events/live-music/today?page=1",
-  "https://do303.com/events/live-music/today?page=2",
-  "https://do303.com/events/live-music/today?page=3",
+  //"https://do303.com/events/live-music/today?page=2",
+//  "https://do303.com/events/live-music/today?page=3",
 ]);
 
 log.debug("Crawler finished.");
