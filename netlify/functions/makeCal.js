@@ -100,7 +100,7 @@ const crawler = new CheerioCrawler({
     //await Dataset.exportToCSV("MY-DATA");
     //await Dataset.exportToJSON("data");
     const { items } = await Dataset.getData();
-    for (let event of items) {
+    for await (let event of items) {
       console.log(event);
       const start = moment(event.start);
       const end = moment(start).add(2, "hours");
@@ -114,7 +114,9 @@ const crawler = new CheerioCrawler({
         location: event.address || event.venue,
       });
     }
-    fs.writeFileSync(`/tmp/${moment().format()}.ics`, icalData.toString());
+    await console.log(icalData.toString(), "ical");
+
+    await fs.writeFileSync(`/tmp/${moment().format()}.ics`, icalData.toString());
     
   },
 
