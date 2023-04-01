@@ -115,6 +115,13 @@ const crawler = new CheerioCrawler({
       });
     }
     fs.writeFileSync(`/tmp/${moment().format()}.ics`, icalData.toString());
+    return { 
+      statusCode: 200,
+      headers: {
+        "Content-Disposition": `attachment; filename="do303${moment().format()}.ics"`,
+      },
+      body: icalData.toString()
+    }
   },
 
   // Loop through JSON data and add events to the calendar
