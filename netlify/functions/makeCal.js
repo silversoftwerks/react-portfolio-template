@@ -200,11 +200,11 @@ function convertJsonToKml(data) {
   return kml;
 }
   
-  return { 
+ /* return { 
       statusCode: 200,
       headers: {
         "Content-Disposition": `attachment; filename="do303${moment().format()}.ics"`,
       },
       body: icalData.toString()
-    }
+    } */
 }
